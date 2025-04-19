@@ -1,0 +1,141 @@
+body{
+    background-color: aliceblue;
+}
+
+.the {
+    color:aqua ;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 60px;
+}
+
+.meoo{
+    color:aqua ;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 60px;
+
+}
+
+.menu{
+ display:flex;
+flex-direction: row;
+flex-wrap:wrap;
+ margin:-20px 0 0 0;
+ float: right;
+
+
+}
+
+.menu li{
+    list-style-type: none;
+    margin: 15px;
+}
+
+.menu a{
+    text-decoration: none;
+     color: brown;
+    font-size: 20px;
+}
+
+.menu a:hover{
+    color: black;
+    width: 10px;
+    border-bottom: 3px solid black;
+    
+}
+
+.menu a:focus-visible{
+background-color: black;
+border-bottom: 3px solid black;
+}
+
+
+.accueils p{
+  text-align: center;
+  padding-top: 150px;
+}
+
+.accueils{ 
+    background-image: url(verrebleu12.jpg);
+    background-size: cover;
+    background-position:center;
+    align-items: center;
+    height: 600px;
+    margin: 50px 0 0 0;
+    font-size:  30px; 
+    color: aliceblue ;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+     
+}
+
+.menou a{
+ text-decoration: none;
+ color: aqua;
+}
+
+.menou{
+    border: solid 4px;
+    border-radius: 8px;
+    transition: text-shadow 0.3s;
+    border-color: yellow;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 5px 0 5px;
+    width: 150px;
+    background-color:aliceblue;
+    margin-left: 45%;
+}
+
+.menou:hover{
+    text-shadow: 0 0 30px blue;
+}
+
+.page{
+    padding:150px 0 350px 0;
+}
+
+.page img{
+    border-radius:150px 150px 0 0;
+    height: 300px;
+}
+
+.page p{
+    float: left;
+    height: 30px;
+    width: 30px;
+    background-color: aliceblue;
+    border-radius: 0 0 15px 15px;
+}
+
+
+footer{
+    background-color:aquamarine;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid 5px;
+    border-color: aquamarine;
+}
+
+.infos{
+    align-items: center;
+    text-align: center;
+}
+
+.infos a{
+    text-decoration: none;
+    color: brown;
+    margin: 0 0 0 150px;
+    
+   
+}
+
+.icon a{
+    text-decoration: none;
+}
+
+
+
+
