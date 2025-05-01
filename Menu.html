@@ -3,24 +3,84 @@
     <title>Menu The Meo</title>
     <link rel="stylesheet" href="stylee.css">
     <link rel="icon" href="">
+    <link rel="stylesheet" href="bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
   <div>
-    <div class="name">
-        <span class="the">The</span>
-        <span class="meoo">meo</span>
-   
-        <nav>
-        <ul class="menu">
-    <li><a href="Accueil.html">Accueil</a></li>
-    <li><a href="Menu.html">Menu</a></li>
-    <li><a href="">Reservations</a></li>
-    <li><a href="">A propos</a></li>
-    <li><a href="">Contact</a></li>
-    <li><a href="">Commander </a></li>
-       </ul>
+    <header>
+      <div class="name">
+          <span class="the">The</span>
+          <span class="meoo">meo</span>
+     
+          <nav class="navbar">
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+          <ul class="menu">
+      <li><a href="Accueil.html" >Accueil</a></li>
+      <li><a href="Menu.html"id="fixed">Menu</a></li>
+      <li><a href="Reservation.html">Reservations</a></li>
+      <li><a href="A propos.html">A propos</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    
+         </ul>
         </nav>
+      </div>
+    </header>
     </div>
   </div>
+<hr>
+
+
+<div class="carousel">
+  <input type="radio" name="carousel" id="slide1" checked>
+  <input type="radio" name="carousel" id="slide2">
+  <input type="radio" name="carousel" id="slide3">
+
+  <div class="slides">
+    <div class="sly">
+      <img src="burger.jpg">
+      <label for="slide3" class="left"><i class="bi bi-arrow-left"></i></label>
+      <label for="slide2" class="right"><i class="bi bi-arrow-right"></i></label>
+    </div>
+    <div class="sly">
+      <img src="pattes.jpg">
+      <label for="slide1" class="left"><i class="bi bi-arrow-left"></i></label>
+      <label for="slide3" class="right"><i class="bi bi-arrow-right"></i></label>
+    </div>
+  </div>
+
+  <div class="nov">
+    <label for="slide1"></label>
+    <label for="slide2" ></label>
+    <label for="slide3"></label>
+  </div>
+</div>
+
+  <hr>
+  <footer>
+    <div class="infos">
+      <p><a href="Accueil.html">Home</a></p>
+      <p><a href="Menu.html">Menu</a></p>
+      <p><a href="Reservation.html">Reservations</a></p>
+      <p><a href="Contact.html">Contact us</a></p>
+    </div>
+    <div class="icon">
+      <a href=""><img src=""></a>
+      <a href=""><img src=""></a>
+      <a href=""><img src=""></a>
+      <a href=""><img src=""></a>
+    </div>
+    <div style="text-align: center;">
+        <p>Situé à MAKEPE ST-TROPEZ EN FACE DE LA DIRECTION ORANGE</p>
+        <p><u>TEL</u>:6 70 18 86 97</p>
+    </div>
+    <div style="text-align: center;">
+      <p>Nous sommes ouverts du LUNDI AU SAMEDI entre 8h et 22h et le DIMANCHE de 8h à 18h30</p>
+    </div>
+    <div style="text-align: center;">
+      <p>@ The meo restaurant .</p>
+      <p>ALL RIGHTS RESERVED .</p>
+    </div>
+  </footer>
   </body>
   </html>

@@ -5,8 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="stylee.css">
 </head>
 <body>
-    
+    <header>
+        <div class="name">
+            <span class="the">The</span>
+            <span class="meoo">meo</span>
+       
+            <nav class="navbar">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="menu">
+        <li><a href="Accueil.html" >Accueil</a></li>
+        <li><a href="Menu.html">Menu</a></li>
+        <li><a href="Reservation.html"id="fixed">Reservations</a></li>
+        <li><a href="A propos.html">A propos</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      
+           </ul>
+          </nav>
+        </div>
+      </header>
+    <hr>
+    <section>
+        <h1 id="name">Réservation</h1>
+        <div class="present"> 
+            <img src="aqua.jpg" class="aqua">
+            <img src="out.jpg" class="out">
+            <img src="beau.jpg" class="beau">
+           
+        </div>
+        <form action="reserver.php" method="post" class="reserver">
+            <h1>Entrez vos informations pour valider la réservation</h1>
+            <input type="text" name="nom" required placeholder="Nom"><br>
+            <input type="text" name="prenom" required placeholder="prénom"><br>
+            <input type="email" name="adresse" required placeholder="E-mail"><br>
+             <input type="number" name="nom" required placeholder="Nombre de personnes" max="12" min="1"><br>
+            <input type="date" name="date" required placeholder="Date"><br>
+            <input type="time" name="heure" required placeholder="heure de reservation" ><br>
+            <input type="submit" value="RESERVER" id="valider">
+        </form>
+    </section>
+    <hr>
+    <footer>
+      <div class="infos">
+        <p><a href="">Home</a></p>
+        <p><a href="">Menu</a></p>
+        <p><a href="">Reservations</a></p>
+        <p><a href="">Contact us</a></p>
+      </div>
+      <div class="icon">
+        <a href=""><img src=""></a>
+        <a href=""><img src=""></a>
+        <a href=""><img src=""></a>
+        <a href=""><img src=""></a>
+      </div>
+      <div style="text-align: center;">
+          <p>Situé à MAKEPE ST-TROPEZ EN FACE DE LA DIRECTION ORANGE</p>
+          <p><u>TEL</u>:6 70 18 86 97</p>
+      </div>
+      <div style="text-align: center;">
+        <p>Nous sommes ouverts du LUNDI AU SAMEDI entre 8h et 22h et le DIMANCHE de 8h à 18h30</p>
+      </div>
+      <div style="text-align: center;">
+        <p>@ The meo restaurant .</p>
+        <p>ALL RIGHTS RESERVED .</p>
+      </div>
+    </footer>
 </body>
 </html>
