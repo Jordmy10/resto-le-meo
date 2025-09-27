@@ -5,31 +5,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Meo</title>
     <link rel="stylesheet" href="stylee.css">
-    <link rel="icon" href="">
+    <link rel="stylesheet" href="A propos.css">
 </head>
 <body>
   
-    <header>
-      <div class="name">
-          <span class="the">The</span>
-          <span class="meoo">meo</span>
-     
-          <nav class="navbar">
-      <input type="checkbox" id="menu-toggle" class="menu-toggle">
-      <label for="menu-toggle" class="menu-icon">&#9776;</label>
-          <ul class="menu">
-      <li><a href="Accueil.html"> Accueil</a></li>
-      <li><a href="Menu.html">Menu</a></li>
-      <li><a href="Reservation.html">Reservations</a></li>
-      <li><a href="A propos.html"id="fixed">A propos</a></li>
-      <li><a href="Contact.html">Contact</a></li>
-    
-         </ul>
-        </nav>
-      </div>
-    </header>
+  <header>
+    <div class="name">
+        <span class="the">The</span>
+        <span class="meoo">meo</span>
+   
+        <nav>
+        <ul class="menu" id="menu">
+    <li><a href="Accueil.html">Accueil</a></li>
+    <li><a href="Menu.html">Menu</a></li>
+    <li><a href="Reservation.html">Reservations</a></li>
+    <li><a href="A propos.html" id="fixed">A propos</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+       </ul>
+      </nav>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </div>
+
+
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const menu = document.getElementById("menu");
+  
+      hamburger.addEventListener("click", () => {
+        menu.classList.toggle("active");
+      });
+    </script>
+  </header>
     <hr>
+  </body>
+  <div class="background" >
+    
+    <section class="section about text-center" aria-labelledby="about-label" id="about">
+      <div class="container">
+  
+        <div class="about-content">
+  
+  
+          <h1>
+            <p class="label-2 section-subtitle" id="about-label">Notre Histoire</p>
+          </h1>
+  
+          <h2 class="headline-1 section-title">Chaque saveur raconte une histoire</h2>
+  
+          <p class="section-text">
+            Themeo est un restaurant dedie a offrir une experience culinaire unique avec des plats frais et innovants dans
+            une ambiance conviviale
+          </p>
+  
+          <div class="contact-label">contactez nous pour plus d'infos <span class="number"> <a href="tel:+237 672550110"
+                class="body-1 contact-number hover-underline">+237 672550110</a></span></div>
+  
+        </div>
+      </div>
+  
+      <figure class="about-banner">
+  
+        <img src="about-banner.png" width="500" height="500" loading="fast" alt="about banner" class="w-100"
+          data-parallax-item data-parallax-speed="1">
+  
+      </figure>
+    </section>
+  </div>
+  <section class="footer">
   <footer>
+  
     <div class="infos">
       <p><a href="">Home</a></p>
       <p><a href="">Menu</a></p>
@@ -37,10 +81,10 @@
       <p><a href="">Contact us</a></p>
     </div>
     <div class="icon">
-      <a href=""><img src=""></a>
-      <a href=""><img src=""></a>
-      <a href=""><img src=""></a>
-      <a href=""><img src=""></a>
+      <a href=""><img src="X.png"></a>
+      <a href=""><img src="facebook.jpg"></a>
+      <a href=""><img src="ig.png"></a>
+      <a href=""><img src="téléchargé (3).jpg"></a>
     </div>
     <div style="text-align: center;">
         <p>Situé à MAKEPE ST-TROPEZ EN FACE DE LA DIRECTION ORANGE</p>
@@ -54,5 +98,6 @@
       <p>ALL RIGHTS RESERVED .</p>
     </div>
   </footer>
+</section>
 </body>
 </html>

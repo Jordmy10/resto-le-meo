@@ -1,0 +1,43 @@
+/* Style général */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+
+.hamburger {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* Responsive : pour téléphone et tablette */
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+</html>

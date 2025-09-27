@@ -1,0 +1,76 @@
+
+/*-----------------------------------*\
+  #ABOUT
+\*-----------------------------------*/
+
+.about .section-text {
+   margin-block: 15px 30px;
+   }
+  .container
+{
+  color: antiquewhite;
+}
+
+.about .btn {
+  margin-inline: auto;
+  margin-block-start: 26px;
+}
+
+.about .container {
+  display: grid;
+  gap: 120px;
+}
+
+.about-banner {
+  position: absolute;
+  margin-block-end: 120px;
+  margin-top: 30px;
+}
+
+.about-banner > .w-100 { padding-inline-start: 50px; }
+
+.about .abs-img::before { z-index: -1; }
+
+
+.background
+{ 
+background-image: url(background2.jpg);
+background-size: cover;
+height: 25cm;
+max-width: 1300;
+margin-right: 100;
+background-repeat: no-repeat;
+overflow: hidden;
+}
+
+.background > section{
+  filter: none;
+}
+
+
+
+
+.number
+{
+left: 50px;
+padding: 20px;
+width: 500px;
+height: 50px;
+background-color: rgb(90, 73, 73);
+border: solid 2px;
+text-align: center;
+border-radius: 20px;
+}
+
+
+.number a
+{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.number a:hover
+{
+ background-color: aliceblue;
+ color: brown;
+}
